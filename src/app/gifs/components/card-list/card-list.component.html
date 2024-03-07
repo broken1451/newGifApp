@@ -1,0 +1,6 @@
+<div class="row">
+
+    @for (item of gifList?.data; track item.id) {
+        <app-gifs-card [item]="item" class="col-md-3 col-sm-6"></app-gifs-card>
+    }
+</div>

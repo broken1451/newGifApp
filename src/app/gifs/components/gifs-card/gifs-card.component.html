@@ -1,0 +1,11 @@
+<div class="">
+    <div class="card  mb-2 text-center bg-dark">
+        <app-lazy-img [url]="item.images.downsized_medium.url" [title]="item.title || 'sin titulo'"></app-lazy-img>
+
+        <div class="card-body text-white text-center">
+            <p class="card-text">
+                {{item.title || 'Sin titulo'}}
+            </p>
+        </div>
+    </div>
+</div>
